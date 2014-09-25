@@ -4,7 +4,9 @@ CollageCreator
 CollageCreator uses scripting to automate the process of creating a collage. There's scrips for Photoshop and GIMP.
 
 Gimp script works. If you don't have GIMP, download it here (http://www.gimp.org/downloads/). Create collages by running CollageCreator_GIMP.bat and updating some parameters in the bat file first. The first path should be the path to GIMP on your computer. The remaining parameters of the create-collage function are below.
+
 (create-collage files-in file-out num-rows num-cols num-collages) :
+
 files-in = directory where input pictures are (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013"), 
 file-out = full path of output collage file (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013\\Collage1.png"), 
 NOTE: file-out must be a .png file, looking into how to make it more generic, 
