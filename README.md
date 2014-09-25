@@ -7,7 +7,7 @@ Gimp script works. If you don't have GIMP, download it here (http://www.gimp.org
 
 (create-collage files-in file-out num-rows num-cols num-collages) :
 
-files-in = directory where input pictures are (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013"), 
+files-in = the input pictures, uses "*" character to select all pictures of a specific extension (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013\\*.jpg"), 
 
 file-out = full path of output collage file (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013\\Collage1.png"), NOTE: file-out must be a .png file, looking into how to make it more generic, 
 
