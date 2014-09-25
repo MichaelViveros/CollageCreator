@@ -8,9 +8,11 @@ Gimp script works. If you don't have GIMP, download it here (http://www.gimp.org
 (create-collage files-in file-out num-rows num-cols num-collages) :
 
 files-in = directory where input pictures are (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013"), 
-file-out = full path of output collage file (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013\\Collage1.png"), 
-NOTE: file-out must be a .png file, looking into how to make it more generic, 
+
+file-out = full path of output collage file (Ex. "C:\\Users\\Owner\\Pictures\\Mexico 2013\\Collage1.png"), NOTE: file-out must be a .png file, looking into how to make it more generic, 
+
 num-rows and num-cols are the number of rows and columns of the collage, 
+
 num-collages = number of collages to create, 
 NOTE: only makes 1 collage for now, looking into making multiple collages and saving them, 
 
