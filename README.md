@@ -18,6 +18,7 @@ num-collages = number of collages to create, NOTE: only makes 1 collage for now,
 Example of create-collage function for creating a 3 by 3 collage of pictures from a trip to Mexico:
 
 Windows - (create-collage \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico 2013\\\*.jpg\\" \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico 2013\\\collage1.png\\" 3 3 1)
+
 Mac - 
 
 Photoshop script also works but is quite a bit more complicated to set-up. Might add some more info for how to get it working.
