@@ -30,4 +30,4 @@ create-collage \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\*.jpg\\" \\"C:\\\Users
 <br>
 
 ## Command Line Output:
-![Command Line Output](./images/Screenshot.jpg)
+![Command Line Output](./images/Screenshot.JPG)
