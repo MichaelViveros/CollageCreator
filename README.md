@@ -1,24 +1,33 @@
 CollageCreator
 ==============
 
-CollageCreator uses scripting to automate the process of creating a collage. There's scrips for Photoshop and GIMP.
+CollageCreator uses scripting to automate the process of creating a collage. It is a plugin for the [GIMP](http://www.gimp.org/) Image Manipulation program written in the Scheme functional programming language.
 
-If you don't have GIMP, download it here (http://www.gimp.org/downloads/). Place the GIMP script called create-collage.scm into the default folder where GIMP saves its scripts (Ex. "C:\\Users\\\Mike\\.gimp-2.8\\scripts"). Create collages by running CollageCreator_GIMP.bat and updating some parameters in the bat file first. The first path should be the path to GIMP on your computer. The remaining parameters of the create-collage function are below.
+To create collages: <br>
+1. Download [GIMP](http://www.gimp.org/downloads/). <br>
+2. Place create-collage.scm into the default folder for GIMP scripts (Ex. "C:\\Users\\Mike\\.gimp-2.8\\scripts"). <br>
+3. Update the parameters to the create-collage function in CollageCreator.bat and then run it. <br>
 
-(create-collage files-in file-out num-rows num-cols num-collages) :
+Usage: <br>
+create-collage files-in out-path num-rows num-cols num-collages
 
-files-in = the input pictures, use "\*" character to select all pictures of a specific extension
+files-in = the input pictures <br>
+out-path = directory where collages will be saved <br>
+num-rows = number of rows in the collage <br>
+num-cols = number of columns in the collage  <br>
+num-collages = number of collages to create
 
-file-out = full path of output collage file, NOTE: file-out must be a .png file, looking into how to make it more generic 
+Example to create 2 3x3 collages of pictures from a trip to Mexico: <br>
+create-collage \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\*.jpg\\" \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\\\" 3 3 2
+<br>
 
-num-rows and num-cols are the number of rows and columns of the collage 
+## Sample 2x2 Collage:
+![2x2 Collage](./images/Collage2x2.jpg)
+<br>
 
-num-collages = number of collages to create, NOTE: only makes 1 collage for now, looking into making multiple collages and saving them
+## Sample 3x3 Collage:
+![3x3 Collage](./images/Collage3x3.jpg)
+<br>
 
-Example of create-collage function for creating a 3 by 3 collage of pictures from a trip to Mexico:
-
-Windows - (create-collage \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico 2013\\\*.jpg\\" \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico 2013\\\collage1.png\\" 3 3 1)
-
-Mac - 
-
-Photoshop script also works but is quite a bit more complicated to set-up. Might add some more info for how to get it working.
+## Command Line Output:
+![Command Line Output](./images/Screenshot.jpg)
