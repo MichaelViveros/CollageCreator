@@ -5,7 +5,7 @@ CollageCreator uses scripting to automate the process of creating a collage. It 
 
 To create collages: <br>
 1. Download [GIMP](http://www.gimp.org/downloads/). <br>
-2. Place create-collage.scm into the default folder for GIMP scripts (Ex. "C:\\Users\\Mike\\.gimp-2.8\\scripts"). <br>
+2. Place create-collage.scm into the default folder for GIMP scripts (Ex. "C:\\Program Files\\GIMP 2\\share\\gimp\\2.0\\scripts"). <br>
 3. Update the parameters to the create-collage function in CollageCreator.bat and then run it. <br>
 
 Usage: <br>
@@ -18,7 +18,7 @@ num-cols = number of columns in the collage  <br>
 num-collages = number of collages to create
 
 Example to create 2 3x3 collages of pictures from a trip to Mexico: <br>
-create-collage \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\*.jpg\\" \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\\\" 3 3 2
+create-collage \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\\*.jpg\\" \\"C:\\\Users\\\Mike\\\Pictures\\\Mexico\\\\\" 3 3 2
 <br>
 
 ## Sample 2x2 Collage:
